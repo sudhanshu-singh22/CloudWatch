@@ -159,6 +159,15 @@ footer {
     .wind {
         font-size: 18px;
     }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .search button img {
+        width: 14px;
+    }
 }
 
 /* For medium screens (tablets) */
