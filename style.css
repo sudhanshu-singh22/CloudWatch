@@ -125,36 +125,45 @@ footer {
     position: relative;
     transition: transform 0.5s; /* Add transition for smooth effect */
 }
+
+/* Media Queries */
+
 /* For small screens (mobile phones) */
 @media only screen and (max-width: 600px) {
     .card {
         width: 90%;
         padding: 20px;
     }
+
     .wheather h1 {
         font-size: 50px;
     }
+
     .wheather h2 {
         font-size: 30px;
     }
+
     .deatils {
         flex-direction: column;
     }
+
     .col {
         margin-bottom: 20px;
     }
+
     .col img {
         width: 30px;
     }
-    .humidity, .wind {
+
+    .humidity,
+    .wind {
         font-size: 18px;
     }
 }
 
-/* For medium and large screens */
-@media only screen and (min-width: 601px) {
+/* For medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
     .card {
         width: 70%;
     }
 }
-
