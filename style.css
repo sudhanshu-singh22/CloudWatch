@@ -25,6 +25,9 @@ body{
     padding: 40px 35px;
     text-align: center;
 }
+.space{
+    margin: 10px;
+}
 .spacer {
     margin-bottom: 25px; /* Add some space between CloudWatch and the search bar */
 }
@@ -97,6 +100,7 @@ margin-top: 50px;
 
 .col{
     display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: left;
 }
