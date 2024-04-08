@@ -34,7 +34,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.search .search-input{
+.search , .search-input{
     border: 0;
     outline: 0;
     background: #ebfffc;
